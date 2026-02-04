@@ -363,8 +363,7 @@ section {
 .section-subtitle {
     text-align: center;
     color: var(--color-text-muted);
-    margin-bottom: var(--spacing-xl);
-   line-height: 16px
+    margin-bottom: var(--spacing-md);
 }
 
 .subsection-title {
