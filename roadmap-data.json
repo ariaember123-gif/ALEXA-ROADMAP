@@ -1,0 +1,523 @@
+{
+  "overview": {
+    "title": "Roadmap Overview",
+    "description": "Our approach (YC-style + Agile). We'll build a venture-scale product by starting with real market pain, then moving fast through validate → ship → learn → iterate, using 2-week sprints (Agile). We will stay YC-style by continuously talking to users, building something users can touch early, launching fast, and iterating based on real behavior (not opinions).",
+    "commitments": [
+      "Find a problem via market analytics + user/CEO interviews",
+      "Build a clickable prototype early to \"show, not tell\" during interviews",
+      "Decide direction quickly and ship a scrappy MVP v0 fast",
+      "Build business strategy in parallel (monetization, GTM, metrics, goals)",
+      "Publish traction/results with proof (demos, changelogs, metrics snapshots)",
+      "Evolve into a quarterly roadmap with measurable outcomes"
+    ]
+  },
+  "sprints": [
+    {
+      "id": 1,
+      "title": "Discovery + Clickable Prototype",
+      "weeks": "1-2",
+      "goal": "Learn fast from real users and validate direction with something tangible",
+      "weeks_detail": [
+        {
+          "number": 1,
+          "title": "Interviews + Market Signal Collection",
+          "summary": "Run 10-15 interviews, capture pain points, and start market analytics",
+          "categories": {
+            "product": [
+              "Define 2–3 target customer profiles (ICPs)",
+              "Create interview script + insights database (structure for notes + tags + pain clusters)",
+              "Run interviews aggressively (target: 10–15 interviews this week, mix of users + founders/CEOs)",
+              "Capture in every interview: what problem is most painful right now, how often it happens (frequency), what they do today (workflow), what tools/substitutes they use, what they pay for / where budget exists, what \"success\" looks like"
+            ],
+            "business": [
+              "Start market analytics (where money/time is spent; what's growing; what's broken)",
+              "Quick competitor scan (fast, not deep): direct competitors, indirect substitutes, \"do nothing\""
+            ],
+            "design": [
+              "Mood board + brand principles (tone, visuals, what we stand for)",
+              "Starter palette + typography direction (enough for website + post templates)"
+            ],
+            "team": [
+              "Launch hiring pipeline + trial tasks for: User Researcher (assistant-level), Community Moderator",
+              "Start CTO / technical lead conversations (but we don't block MVP on hiring)",
+              "Start video editor pipeline (optional early, can be contractor)"
+            ],
+            "marketing": [
+              "Publish website roadmap page + \"build in public\" cadence (2–3 updates/week)",
+              "Publish Sprint 1 update post: what we're doing, how we measure results",
+              "Start content workflow setup (hooks list, posting process, template-based workflow)"
+            ],
+            "token": [
+              "Publish transparency policy: what actions we'll take and how it's verifiable (proof links structure)",
+              "Keep it factual; no hype; focus remains on product + users"
+            ]
+          },
+          "results": [
+            "Interview system live + 10–15 interviews completed",
+            "Initial pain clusters emerging (top 5–10)",
+            "Roadmap website live + update cadence live",
+            "Brand starter kit v0 ready (basic templates)",
+            "Hiring pipeline started (shortlist forming)",
+            "Transparency policy published"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Clickable Prototype + \"Show, Don't Tell\" Interviews",
+          "summary": "Build and test clickable prototype with 10-15 more interviews",
+          "categories": {
+            "product": [
+              "Continue interviews aggressively (target: 10–15 more interviews this week)",
+              "Convert the top pain clusters into 2–3 solution concepts",
+              "Build a clickable prototype (Figma or equivalent) for the top concept(s)",
+              "Run prototype interviews and test: clarity of the workflow (where users get stuck), perceived value (\"this solves it\" vs \"nice-to-have\"), willingness to try now (commitment), willingness to pay (early signal), next step action (pilot, onboarding call, waitlist signup)"
+            ],
+            "business": [
+              "Define problem scoring framework clearly: urgency, frequency, willingness-to-pay, market size, wedge speed",
+              "Score and rank top 3 problem directions",
+              "End the week with a clear front-runner (or top 2 if still close)"
+            ],
+            "design": [
+              "Prototype UX: minimum steps to deliver value",
+              "Keep design simple; optimize for clarity and speed"
+            ],
+            "team": [
+              "Run trial tasks for researcher/moderator and move toward \"trial → hire\"",
+              "Narrow CTO/builder path options (CTO partner vs solo build vs contractor)"
+            ],
+            "marketing": [
+              "Publish Sprint 1 recap (sanitized learnings + what we're building next)",
+              "Run community input (voting / comments) to pressure-test the pain clusters"
+            ],
+            "token": [
+              "Continue transparency actions + publish proof links on schedule"
+            ]
+          },
+          "results": [
+            "Total 20–30 interviews completed across Sprint 1",
+            "Clickable prototype tested with real users (5–10 prototype sessions)",
+            "Ranked top 3 problems + front-runner identified",
+            "MVP v0 scope outline drafted (what we build in Sprint 2)",
+            "Public update post published (insights + next sprint plan)"
+          ]
+        }
+      ],
+      "deliverables": [
+        "Interview summary (sanitized) + top pain clusters",
+        "Clickable prototype + key feedback highlights",
+        "Ranked shortlist of problem directions (top 3)",
+        "MVP v0 scope outline",
+        "Build-in-public update + proof links"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Choose One Direction + Build + Launch MVP v0",
+      "weeks": "3-4",
+      "goal": "Choose one direction and launch MVP v0 to real users by the end of Sprint 2",
+      "weeks_detail": [
+        {
+          "number": 3,
+          "title": "MVP Build Starts + Fast Validation Loops",
+          "summary": "Confirm direction, define MVP scope tightly, and start building immediately",
+          "categories": {
+            "product": [
+              "Confirm final problem direction (based on Sprint 1 evidence + follow-up calls if needed)",
+              "Define MVP scope tightly: core workflow only, no extras",
+              "Start building MVP v0 immediately",
+              "Keep user contact active: short feedback loops (daily or every 2–3 days)"
+            ],
+            "business": [
+              "Draft business strategy v1 (short, explicit assumptions): target customer, pricing hypothesis, expected value delivered, early unit economics assumptions",
+              "Define metrics + goals for MVP v0: activation definition (Aha moment), retention baseline target (early), frequency target (core actions per week)"
+            ],
+            "design": [
+              "Turn prototype into real UI for MVP (minimal but usable)",
+              "Update design system starter components needed for MVP"
+            ],
+            "team": [
+              "Lock researcher + moderator (trial → hire)",
+              "Confirm MVP builder path and weekly shipping cadence"
+            ],
+            "marketing": [
+              "Publish \"what we're building + why\" post (high-level, non-sensitive)",
+              "Create waitlist + onboarding pipeline (signup → onboarding → feedback)",
+              "Publish a simple changelog format"
+            ],
+            "token": [
+              "Maintain transparency actions + proof page on site"
+            ]
+          },
+          "results": [
+            "MVP v0 build in progress (core workflow implemented)",
+            "Onboarding pipeline ready (waitlist + first user scheduling)",
+            "Metrics tracking definitions set (what we measure + why)",
+            "Public build update published"
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Launch MVP v0 + Onboard First Users",
+          "summary": "Launch MVP v0 and onboard first cohort of 10-30 design partners",
+          "categories": {
+            "product": [
+              "Launch MVP v0 (usable by real users)",
+              "Onboard first cohort (target: 10–30 design partners)",
+              "Collect feedback daily + prioritize fixes/iterations",
+              "Instrument analytics and establish baseline metrics"
+            ],
+            "business": [
+              "Monetization experiment plan drafted (what we test first)",
+              "Decide first revenue pathway to validate (pilot / paid test / conversion trigger)"
+            ],
+            "design": [
+              "Polish core UX enough for daily usage (remove friction)",
+              "Create asset pack for announcements + product visuals"
+            ],
+            "team": [
+              "Add design support if needed (contract is fine)",
+              "Start finance/revenue-model support search (advisor or part-time)"
+            ],
+            "marketing": [
+              "Weekly demo + changelog update",
+              "Collect testimonials/clips (permission-based)"
+            ],
+            "token": [
+              "Publish proof links consistently"
+            ]
+          },
+          "results": [
+            "MVP v0 shipped and used by real users",
+            "First cohort onboarded (10–30)",
+            "Baseline metrics captured (activation + initial retention)",
+            "Public demo/changelog published"
+          ]
+        }
+      ],
+      "deliverables": [
+        "One direction selected with evidence",
+        "MVP v0 live + onboarding active",
+        "Baseline metrics dashboard snapshot",
+        "Business strategy v1 + metrics framework v1",
+        "Public demo + changelog + proof links"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Onboard + Iterate + First Traction Signals",
+      "weeks": "5-6",
+      "goal": "Increase repeat usage and tighten the core loop based on real behavior",
+      "weeks_detail": [
+        {
+          "number": 5,
+          "title": "Improve Time-to-Value + Ship Iterations",
+          "summary": "Improve onboarding flow and ship 1-2 iterations based on user behavior",
+          "categories": {
+            "product": [
+              "Improve onboarding (reduce steps to reach \"Aha moment\")",
+              "Ship 1–2 iterations based on user behavior",
+              "Run weekly user calls + daily feedback capture"
+            ],
+            "business": [
+              "Start monetization validation (soft tests): willingness-to-pay conversations, pilot offers (founder-led) if B2B",
+              "Define GTM wedge hypothesis (channel/loop to test)"
+            ],
+            "design": [
+              "Fix UX friction points identified in Week 4",
+              "Strengthen consistency of UI + community visuals"
+            ],
+            "marketing": [
+              "Publish progress update (what changed, what we learned)",
+              "Keep content engine consistent (focus on what drives signups)"
+            ],
+            "token": [
+              "Continue proof schedule"
+            ]
+          },
+          "results": [
+            "Faster activation (time-to-value reduced)",
+            "First retention improvement signals",
+            "Clear list of top friction points + fixes shipped"
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Expand Onboarding + Validate Pull",
+          "summary": "Onboard more users with repeatable process and ship retention-focused iterations",
+          "categories": {
+            "product": [
+              "Onboard additional users with a repeatable process",
+              "Ship 1–2 more iterations (retention-focused)",
+              "Identify the core action that predicts retention"
+            ],
+            "business": [
+              "Monetization experiment plan finalized (pricing test design)",
+              "GTM wedge test launched (one primary channel/loop)"
+            ],
+            "team": [
+              "Bring in finance/revenue-model support if revenue modeling becomes urgent",
+              "Add support/mod capacity if community load increases"
+            ],
+            "marketing": [
+              "Publish Sprint 3 recap + early traction signals (sanitized)",
+              "Collect testimonials/clips and build a case library"
+            ]
+          },
+          "results": [
+            "Repeat usage improving (retention trend up)",
+            "Onboarding system repeatable",
+            "First monetization signal (pilot or paid test discussions started)",
+            "One GTM wedge test running"
+          ]
+        }
+      ],
+      "deliverables": [
+        "Iteration log + what improved retention",
+        "Traction snapshot v0 (users, usage, retention trend)",
+        "Monetization experiment plan",
+        "GTM wedge test summary"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Retention + Pricing Tests + Channel Focus",
+      "weeks": "7-8",
+      "goal": "Prove product pull more clearly and narrow to what scales",
+      "weeks_detail": [
+        {
+          "number": 7,
+          "title": "Retention Work + Pricing Test Setup",
+          "summary": "Fix onboarding bottlenecks and launch pricing tests",
+          "categories": {
+            "product": [
+              "Fix remaining onboarding bottlenecks",
+              "Add only retention-driving features (no bloat)"
+            ],
+            "business": [
+              "Launch pricing tests: free → paid conversion experiments (if applicable), pilot pricing offers (founder-led sales)",
+              "Choose the best-performing channel signals to focus on"
+            ],
+            "marketing": [
+              "Publish \"traction so far\" update (learnings + what's next)",
+              "Double down on content/channel that produces signups"
+            ]
+          },
+          "results": [
+            "Retention improved vs baseline",
+            "Pricing experiments live",
+            "Clear signal on which channel is most promising"
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Improve Retention + Focus GTM",
+          "summary": "Ship multiple improvement cycles and select primary GTM wedge",
+          "categories": {
+            "product": [
+              "Ship 2–4 cycles of improvements based on data",
+              "Make time-to-value and repeat usage the core focus"
+            ],
+            "business": [
+              "Select the GTM wedge (one primary growth path)",
+              "Document funnel assumptions and next tests"
+            ],
+            "team": [
+              "Identify gaps (ops, legal, analytics) and cover critical ones"
+            ],
+            "marketing": [
+              "Publish Sprint 4 recap + what we're scaling next"
+            ],
+            "token": [
+              "Maintain transparency actions + proof links"
+            ]
+          },
+          "results": [
+            "Clear retention improvements visible",
+            "First monetization signals (even small)",
+            "One primary GTM wedge selected",
+            "Public traction report v1 published"
+          ]
+        }
+      ],
+      "deliverables": [
+        "Retention + monetization results snapshot",
+        "GTM wedge decision + why",
+        "Public traction report v1"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Scale System + Revenue Model v1 + Quarterly Roadmap",
+      "weeks": "9-10",
+      "goal": "Operationalize scaling and publish an ambitious quarterly plan grounded in real data",
+      "weeks_detail": [
+        {
+          "number": 9,
+          "title": "Scale Onboarding + Clarify Revenue Model",
+          "summary": "Define MVP v1 scope and draft revenue model v1",
+          "categories": {
+            "product": [
+              "MVP v1 scope defined (based on retention + usage)",
+              "Define next 90-day product bets"
+            ],
+            "business": [
+              "Revenue model v1 drafted: pricing tiers, assumptions and constraints, expansion path, break-even logic (simple, explicit)"
+            ],
+            "marketing": [
+              "Scale the highest-performing acquisition loop",
+              "Maintain weekly demo/changelog cadence"
+            ]
+          },
+          "results": [
+            "MVP v1 scope locked",
+            "Revenue model v1 drafted",
+            "Scaling playbook v0 started"
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Publish Quarterly Plan + GTM v1",
+          "summary": "Publish quarterly roadmap, GTM strategy, and transparency summary",
+          "categories": {
+            "business": [
+              "GTM strategy v1 published: channels, funnel, partnership angles, key experiments for the next quarter",
+              "Metrics/OKRs for the next quarter finalized"
+            ],
+            "design": [
+              "Brand kit v1 updated (consistent product + content visuals)"
+            ],
+            "team": [
+              "Confirm CTO/tech leadership structure for speed and reliability",
+              "Confirm finance/revenue-model support (advisor or part-time)"
+            ],
+            "marketing": [
+              "Publish quarterly roadmap + GTM plan",
+              "Publish \"first 10 weeks\" recap"
+            ],
+            "token": [
+              "Continue scheduled token buyback (daily or weekly): we buy a defined percent of Alexa supply (%) on a fixed schedule and lock it for a defined period (months)",
+              "Publish a 10-week transparency summary with wallet proof links (buys + lockups), alongside the product progress recap"
+            ]
+          },
+          "results": [
+            "Quarterly roadmap published (high-level milestones + metrics targets)",
+            "Revenue model v1 + GTM v1 published",
+            "Scaling cadence established (shipping + onboarding + content engine)",
+            "Scheduled buyback + lockup plan executed consistently, with proof links published"
+          ]
+        }
+      ],
+      "deliverables": [
+        "Quarterly roadmap (ambitious + measurable)",
+        "Revenue model v1 + GTM v1",
+        "Metrics/OKRs for next quarter",
+        "Public recap + proof links (product + transparency)"
+      ]
+    }
+  ],
+  "traction": {
+    "title": "Traction / Results Scoreboard",
+    "description": "We keep this updated continuously",
+    "metrics": [
+      { "label": "Interviews completed", "value": "5" },
+      { "label": "Waitlist signups", "value": "__" },
+      { "label": "Prototype tested sessions", "value": "__" },
+      { "label": "MVP shipped (date)", "value": "__" },
+      { "label": "Weekly active users", "value": "__" },
+      { "label": "Retention (D7 / weekly)", "value": "__" },
+      { "label": "Revenue / paid pilots", "value": "__" },
+      { "label": "Partnerships / pilots", "value": "__" }
+    ],
+    "proofLinks": [
+      "Demo videos",
+      "Changelog posts",
+      "Transparency proof links (buys + lockups), if applicable"
+    ]
+  },
+  "competitive": {
+    "title": "Competitive Analysis",
+    "items": [
+      { "category": "Direct competitors", "description": "Companies offering similar solutions" },
+      { "category": "Indirect substitutes", "description": "Alternative approaches to solving the problem" },
+      { "category": "\"Do nothing\" alternatives", "description": "Current manual workflows" },
+      { "category": "Our wedge", "description": "Why we win early" }
+    ]
+  },
+  "monetization": {
+    "title": "Monetization + Revenue Model",
+    "strategy": {
+      "title": "Monetization strategy (we validate through experiments)",
+      "items": [
+        "Pricing hypothesis (who pays + why + when)",
+        "Model candidates:"
+      ],
+      "models": [
+        "Subscription (repeat usage)",
+        "Usage-based (value scales with volume)",
+        "Seat-based (teams)",
+        "Hybrid (base + usage)"
+      ]
+    },
+    "revenueModel": {
+      "title": "Revenue model v1 (we publish once we have data)",
+      "items": [
+        "Pricing tiers draft",
+        "Cost assumptions",
+        "Break-even targets",
+        "Expansion path (upsell, teams, enterprise, etc.)"
+      ],
+      "note": "Team note: we involve finance/revenue-model support to sanity-check assumptions."
+    }
+  },
+  "useOfFunds": {
+    "title": "Use of Funds (Draft Allocation)",
+    "allocations": [
+      { "percentage": 40, "category": "Product & Engineering", "description": "MVP, infrastructure, data, QA" },
+      { "percentage": 20, "category": "Marketing & Growth", "description": "Content, experiments, community growth" },
+      { "percentage": 20, "category": "Go-To-Market & Partnerships", "description": "Pilots, BD, onboarding systems" },
+      { "percentage": 20, "category": "Operations & Legal", "description": "Compliance, contracts, financial setup" }
+    ]
+  },
+  "quarterlyRoadmap": {
+    "title": "Quarterly Roadmap (High-Level Milestones, Ambitious)",
+    "quarters": [
+      {
+        "quarter": "Q1 2026",
+        "period": "Feb–Mar",
+        "title": "Launch + First Pull",
+        "milestones": [
+          "Clickable prototype tested with real users",
+          "MVP v0 shipped and used by real users",
+          "Baseline activation/retention established",
+          "Weekly shipping cadence + onboarding cadence running",
+          "First monetization signal started (pilot / paid test / strong willingness-to-pay)"
+        ]
+      },
+      {
+        "quarter": "Q2 2026",
+        "period": "Apr–Jun",
+        "title": "Retention + Monetization + Repeatable Acquisition",
+        "milestones": [
+          "MVP v1 built around retention drivers",
+          "Pricing validated through real conversions or pilots",
+          "One repeatable acquisition loop/channel established",
+          "Community + content engine reliably generating signups"
+        ]
+      },
+      {
+        "quarter": "Q3 2026",
+        "period": "Jul–Sep",
+        "title": "Scale + Expansion",
+        "milestones": [
+          "Scale the strongest channel(s)",
+          "Add product depth that increases retention/expansion",
+          "Expand to adjacent ICPs or move upmarket only if retention + monetization are strong"
+        ]
+      }
+    ]
+  },
+  "tokenTransparency": {
+    "statement": "We continue scheduled token buyback (daily or weekly): we buy a defined percent of Alexa supply (%) on a fixed schedule and lock it for a defined period (months).",
+    "note": "Transparency and proof links provided. No price talk, no calls-to-invest."
+  }
+}
