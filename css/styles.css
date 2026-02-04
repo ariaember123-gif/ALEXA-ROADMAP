@@ -151,6 +151,9 @@ ul, ol {
     list-style-position: inside;
     margin-bottom: var(--spacing-sm);
 }
+.subsection-title + .subsection-title {
+    margin-top: 20px; /* Adjust the value as needed */
+}
 
 /* ===================================
    Container
