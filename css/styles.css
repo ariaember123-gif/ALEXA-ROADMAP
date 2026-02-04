@@ -135,7 +135,6 @@ h3 {
 p {
     margin-bottom: var(--spacing-sm);
     color: var(--color-text-secondary);
-
 }
 
 a {
@@ -370,6 +369,8 @@ section {
 .subsection-title {
     color:#e6f2e9;
     margin-bottom: var(--spacing-md);
+     line-height: 24px; /* A fixed height of 24 pixels */
+
 }
 
 /* ===================================
