@@ -1210,8 +1210,17 @@ section {
 @media (max-width: 600px) {
   .alert-content {
     padding: 15px;
-    font-size: 14px;   /* Smaller text on small screens */
+    font-size: 14px;/* Smaller text on small screens */
   }
+   .custom-alert-box{
+    padding: 40px;
+    width: 350px;
+      
+   }
+   .alert-image{
+   width: 250px
+      
+   }
 
   .alert-content button {
     width: 100%;       /* Button spans full width */
