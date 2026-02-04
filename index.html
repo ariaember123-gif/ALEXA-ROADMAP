@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ALEXA Roadmap - Building a venture-scale product using YC-style + Agile methodology. Transparent, data-driven development with 2-week sprints.">
+    <meta name="keywords" content="ALEXA, roadmap, YC-style, Agile, startup, MVP, product development">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="ALEXA Roadmap - YC-Style + Agile Development">
+    <meta property="og:description" content="Transparent roadmap showing our journey from discovery to scale. Building in public with proof.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/images/Frame_3.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/group_129.png">
+    
+    <title>ALEXA Roadmap - Building in Public</title>
+    
+    <!-- Google Fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <img src="./assets/images/ALEXA.png" alt="ALEXA Logo" width="40" height="40">
+                    <span class="logo-text">ALEXA</span>
+                </div>
+                <ul class="nav-links" role="menubar">
+                    <li role="none"><a href="#overview" role="menuitem">Overview</a></li>
+                    <li role="none"><a href="#roadmap" role="menuitem">Roadmap</a></li>
+                    <li role="none"><a href="#traction" role="menuitem">Traction</a></li>
+                    <li role="none"><a href="#quarterly" role="menuitem">Quarterly</a></li>
+                </ul>
+                <button class="cta-button" aria-label="Join waitlist">Join Waitlist</button>
+<div id="waitlistModal" class="custom-alert">
+    <div class="custom-alert-box">
+
+        <img src="./assets/images/Vladmir.png" class="alert-image">
+
+        <h3>Coming Soon 🚧</h3>
+
+        <p> ERROR 404 page not developed yet, we will come back with updates.</p>
+
+        <button id="closeModalBtn">Close</button>
+
+    </div>
+</div>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / Overview Section -->
+    <section id="overview" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Roadmap Overview</h1>
+                <p class="hero-description" id="overview-description"></p>
+                
+                <div class="commitments-box">
+                    <h3 class="commitments-title">We will:</h3>
+                    <ul class="commitments-list" id="commitments-list"></ul>
+                </div>
+
+                
+<button 
+  class="cta-button-large" 
+  aria-label="Follow our updates"
+  onclick="window.location.href='https://x.com/i/communities/2016992713975960009'">Follow Updates
+</button>
+            </div>
+            <div class="hero-visual">
+                <img src="./assets/images/Frame_3.png" alt="ALEXA Roadmap Visualization" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Roadmap Section -->
+    <section id="roadmap" class="roadmap-section">
+        <div class="container">
+            <h2 class="section-title">Development Roadmap</h2>
+            <p class="section-subtitle">Our 10-week sprint plan from discovery to scale</p>
+            
+            <div class="timeline" id="timeline-container">
+                <!-- Timeline will be dynamically generated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Traction Section -->
+    <section id="traction" class="traction-section">
+        <div class="container">
+            <h2 class="section-title">Traction / Results Scoreboard</h2>
+            <p class="section-subtitle">We keep this updated continuously</p>
+            
+            <div class="metrics-grid" id="metrics-grid">
+                <!-- Metrics will be dynamically generated -->
+            </div>
+            
+           
+        </div>
+    </section>
+
+    <!-- Monetization Section -->
+    <section id="monetization" class="monetization-section">
+        <div class="container">
+            <h2 class="section-title">Monetization + Revenue Model</h2>
+            
+            <div class="monetization-content">
+                <div class="monetization-strategy">
+                    <h3 class="subsection-title">Monetization Strategy</h3>
+                    <p class="strategy-intro">We validate through experiments</p>
+                    <ul class="strategy-list" id="strategy-list">
+                        <!-- Strategy will be dynamically generated -->
+                    </ul>
+                </div>
+                
+                <div class="revenue-model">
+                    <h3 class="subsection-title">Revenue Model v1</h3>
+                    <p class="model-intro">We publish once we have data</p>
+                    <ul class="model-list" id="model-list">
+                        <!-- Model will be dynamically generated -->
+                    </ul>
+                    <p class="model-note" id="model-note"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use of Funds Section -->
+    <section id="use-of-funds" class="funds-section">
+        <div class="container">
+            <h2 class="section-title">Use of Funds</h2>
+            <p class="section-subtitle">Draft Allocation</p>
+            
+            <div class="funds-grid" id="funds-grid">
+                <!-- Funds allocation will be dynamically generated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Quarterly Roadmap Section -->
+    <section id="quarterly" class="quarterly-section">
+        <div class="container">
+            <h2 class="section-title">Quarterly Roadmap</h2>
+            <p class="section-subtitle">High-Level Milestones, Ambitious</p>
+            
+            <div class="quarterly-grid" id="quarterly-grid">
+                <!-- Quarterly roadmap will be dynamically generated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Token Transparency Section -->
+    <section id="transparency" class="transparency-section">
+        <div class="container">
+            <div class="transparency-box">
+                <div class="transparency-icon">
+                    <img src="./assets/images/Mask_Group.png" alt="Transparency icon" width="48" height="48">
+                </div>
+                <div class="transparency-content">
+                    <h3 class="transparency-title">Token Transparency</h3>
+                    <p class="transparency-statement" id="transparency-statement"></p>
+                    <p class="transparency-note">Transparency and proof links provided. No price talk, no calls-to-invest.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./assets/images/ALEXA.png" alt="ALEXA Logo" width="32" height="32">
+                    <span class="footer-logo-text">ALEXA</span>
+                </div>
+                <p class="footer-text">Building in public. Shipping fast. Learning from users.</p>
+                <div class="footer-links">
+                    <a href="#overview">Overview</a>
+                    <a href="#roadmap">Roadmap</a>
+                    <a href="#traction">Traction</a>
+                    <a href="#quarterly">Quarterly</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./js/app.js"></script>
+</body>
+</html>

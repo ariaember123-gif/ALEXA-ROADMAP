@@ -1,0 +1,20 @@
+{
+  "name": "alexa-roadmap-website",
+  "version": "1.0.0",
+  "description": "ALEXA Roadmap Website - YC-style + Agile Development",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx serve -p 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "roadmap",
+    "alexa",
+    "yc-style",
+    "agile",
+    "startup"
+  ],
+  "author": "ALEXA Team",
+  "license": "Proprietary"
+}
