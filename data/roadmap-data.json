@@ -419,14 +419,14 @@
     "title": "Traction / Results Scoreboard",
     "description": "We keep this updated continuously",
     "metrics": [
-      { "label": "Interviews completed", "value": "5" },
-      { "label": "Waitlist signups", "value": "__" },
-      { "label": "Prototype tested sessions", "value": "__" },
-      { "label": "MVP shipped (date)", "value": "__" },
-      { "label": "Weekly active users", "value": "__" },
-      { "label": "Retention (D7 / weekly)", "value": "__" },
-      { "label": "Revenue / paid pilots", "value": "__" },
-      { "label": "Partnerships / pilots", "value": "__" }
+      { "label": "Interviews completed", "value": "___________" },
+      { "label": "Waitlist signups", "value": "___________" },
+      { "label": "Prototype tested sessions", "value": "___________" },
+      { "label": "MVP shipped (date)", "value": "___________" },
+      { "label": "Weekly active users", "value": "___________" },
+      { "label": "Retention (D7 / weekly)", "value": "___________" },
+      { "label": "Revenue / paid pilots", "value": "___________" },
+      { "label": "Partnerships / pilots", "value": "___________" }
     ],
     "proofLinks": [
       "Demo videos",
